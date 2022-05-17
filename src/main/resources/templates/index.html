@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<!-- 入力フォーム -->
+	<form action="/apply" method="post">
+		<input type="text" name="num" th:value="${num}" />
+		
+		<input type="submit" value="GO" />
+	</form>
+	
+	<!-- 横棒 -->
+	<hr />
+	
+	<!-- 結果 -->
+	<p th:text="${result}"></p>
+	
+</body>
+</html>
