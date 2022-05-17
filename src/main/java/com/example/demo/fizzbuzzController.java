@@ -41,6 +41,7 @@ public class fizzbuzzController {
 
 		// 結果を設定
 		mv.addObject("result", result);
+		mv.addObject("resultaaaa", result);
 		mv.addObject("num", num);
 
 		// 表示するファイルを設定
