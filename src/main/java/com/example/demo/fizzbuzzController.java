@@ -36,7 +36,7 @@ public class fizzbuzzController {
 		}
 
 		if (result.length() == 0 || num == 0) {
-			result = "イエーイ！見てるぅ～！？";
+			result = "イエーイ！見てるぅ～！？文字追加";
 		}
 
 		// 結果を設定
